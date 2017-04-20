@@ -1,0 +1,57 @@
+body {
+  position: relative;
+  font-family: 'Wallpoet', cursive;
+}
+
+nav,
+h2 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0;
+  background-color: black;
+  padding: 2%;
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  transition: all .5s ease-in-out;
+  background-color: #4c4c4c;
+  border-color: #4c4c4c;
+  padding: 0%;
+  z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px;
+}
+
+.extreme {
+  font-family: 'Bungee Outline';
+  font-size: 11vw;
+  color: white;
+  background-color: #000;
+  height: 100vh;
+}
+
+.extreme div {
+  padding: 6vh 0;
+  width: 100vw;
+}
+
+#portfolio div .row {
+  padding: 2% 10%;
+  max-width: 100%;
+}
+
+img {
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 5%;
+}
